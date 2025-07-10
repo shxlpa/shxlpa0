@@ -1,0 +1,102 @@
+body {
+    font-family: 'Helvetica Neue', sans-serif;
+    color: #000;
+    background-color: #fff;
+    max-width: 1000px;  /* Centers introduction */
+    margin: 0 auto; /* Centers introduction */
+  }
+  
+  h1, h2, h3, h4 {
+    font-weight: 900;
+    color: #0047FF;
+  }
+  
+  a {
+    color: #0047FF;
+    font-weight: bold;
+  }
+  
+  a:hover {
+    text-decoration: underline;
+  }
+  
+  /*  to make the title big and remove the underline */
+  .navigation-title {
+    font-size: 10rem;
+    font-weight: 900;
+    letter-spacing: 1px;
+    color: #0047FF !important;
+    text-decoration: none !important;
+  }
+
+  /* to hide the weird checkbox */
+  #menu-toggle {
+    display: none;
+  }
+
+  .navigation-list {
+    list-style-type: none;       /* Removes bullets */
+    padding: 0;                  /* Removes indent */
+    margin: 0;                   /* Tight layout */
+    display: flex;               /* Lays out links horizontally */
+    justify-content: space-between; /* spreads items evenly */
+    gap: 1rem;                   /* Adds spacing between them */
+  }
+  
+  .navigation-list li {
+    margin: 0;
+  }
+  
+  .navigation .container {
+    max-width: 1000px; /* Centers navigation bar + title */
+    margin: 0 auto;  /* Centers navigation bar + title */
+  }
+
+  /* styling for all images */
+  img {
+    max-width: 100%;
+    height: auto;
+    display: block;
+    margin: 1rem auto;
+  }
+
+  a:has(.sr-only) {
+    display: none !important;
+  } /* hides the "link to heading" text when making a markdown heading */
+
+  /* stylize the subpage headers */
+  /* I figured out what the subpage headers were called (title-link) using inspect element */
+  .title-link {
+    color: #000000 !important;      /* change to blue or your preferred color */
+    font-size: 8rem !important;   /* make it bigger */
+    font-weight: 400 !important;    /* bold it */
+    letter-spacing: 4px;
+    /* margin-top: 0.5rem !important;
+    margin-bottom: 1.5rem !important;
+    border-bottom: 2px solid #2a9df4 !important;  /* underline for emphasis */
+    padding-bottom: 0.3rem !important; */
+    text-decoration: none !important;  /* remove any underline if needed */
+  }
+
+/* remove ugly underlines on subpage titles */
+  .title-link,
+.title-link:hover,
+.title-link:focus,
+.title-link:active {
+  text-decoration: none !important;
+  border-bottom: none !important;
+}
+
+/*  using H3 for projects on subpages  */
+h3, h4, h5, h6 {
+  color: black !important;
+  font-size: 4rem !important; 
+  font-weight: 400 !important;
+  /* Set font sizes explicitly, adjust as needed */
+}
+
+/* add consistent spacing between image bottom and subsequent text */
+img {
+  margin-bottom: 3rem;
+}
+

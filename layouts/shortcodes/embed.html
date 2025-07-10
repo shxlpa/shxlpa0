@@ -1,0 +1,9 @@
+<!-- layouts/shortcodes/embed.html -->
+
+<iframe src="{{ .Get "src" }}" width="100%" height="600px" style="border: none;">
+    This browser does not support PDFs. Please download the PDF to view it:
+    <a href="{{ .Get "src" }}">Download PDF</a>.
+  </iframe>
+
+  <!-- this is old code used to embed a link. gdrive permissions didn't like that so i'm now hosting the pdf locally. -->
+<!-- <iframe src="{{ .Get 0 }}" width="{{ .Get 1 }}" height="{{ .Get 2 }}"> </iframe> -->
