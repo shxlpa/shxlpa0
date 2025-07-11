@@ -2,20 +2,20 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>http://localhost:1313/</loc>
+    <loc>https://shxlpa.com/</loc>
     <lastmod>2025-07-10T12:23:21-07:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/writing/</loc>
+    <loc>https://shxlpa.com/writing/</loc>
     <lastmod>2025-07-10T12:23:21-07:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/design/</loc>
+    <loc>https://shxlpa.com/design/</loc>
     <lastmod>2025-07-10T12:23:16-07:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/engineering/</loc>
+    <loc>https://shxlpa.com/engineering/</loc>
     <lastmod>2025-07-10T12:23:07-07:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/categories/</loc>
+    <loc>https://shxlpa.com/categories/</loc>
   </url><url>
-    <loc>http://localhost:1313/tags/</loc>
+    <loc>https://shxlpa.com/tags/</loc>
   </url>
 </urlset>

@@ -1,4 +1,4 @@
-baseURL = 'https://shxlpa.com/'
+baseURL = 'https://shxlpa.vercel.app/'
 languageCode = 'en-us'
 title = 'SHILPA'
 theme = 'hugo-coder'
