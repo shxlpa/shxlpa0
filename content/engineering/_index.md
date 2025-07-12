@@ -28,9 +28,9 @@ During my independent research role with the UCLA Anatomical Engineering Group, 
 I designed and fabricated current and voltage sensing PCBs, and wrote firmware code to communicate to the analog digital converter (ADC) via SPI.
 
 I then pulled on prior research that suggests the inductance of an electromagnet changes as a ferromagnet moves within its field.
-I tapped into the voltage and current of the electromagnet, mapping industance versus distance.
+I tapped into the voltage and current of the electromagnet, mapping inductance versus distance.
 
-I noticed some dependence on the frequency of voltage input, but at 100 hz there is a particularly noticable trend correlating Gap Distance [mm] with Inductance [mH].
+I noticed some dependence on the frequency of voltage input, but at 100 hz there is a particularly noticeable trend correlating Gap Distance [mm] with Inductance [mH].
 
 I presented these results via poster at the Socal Robotics Symposium (Irvine 2023) and the BMES Annual Meeting (Seattle 2023).
 
