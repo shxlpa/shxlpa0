@@ -6,7 +6,7 @@ enableEmoji = true
 
 [params]
 author = " "
-info = "I'm Shilpa Rao, a natural intelligence from California. I'm an electrical engineer (UCLA B.S. 2024) and multimedia designer. I'm currently an Electrical Engineering master's student at UCLA. I'm actively searching for a Summer 2026 internship - please reach out! \n \n My work spans my interests: robotics, human-centric engineering, decentralized software, japandi home decor and music. I am passionately both an artist and engineer. I believe they're intrinsically connected. If you're in design, robotics, biotech, or environmental tech I want to hear from you. My email is shilpa.padiki.rao at gmail dot com."
+info = "I'm Shilpa Rao, a natural intelligence from California. I'm an electrical engineer (UCLA B.S. 2024) and multimedia designer. I'm currently an Electrical Engineering master's student at UCLA. I'm actively searching for an electrical engineering position - please reach out! \n \n My work spans my interests: robotics, human-centric engineering, decentralized software, japandi home decor and music. I am passionately both an artist and engineer. I believe they're intrinsically connected. If you're in design, robotics, biotech, or environmental tech I want to hear from you. My email is shilpa.padiki.rao at gmail dot com."
 description = "Shilpa's personal website"
 colorScheme = "light"  # We'll override CSS anyway
 
