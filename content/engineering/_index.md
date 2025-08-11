@@ -6,7 +6,7 @@ draft = false
 
 ### Systems Engineering Internship @ Arc Boats
 
-At Arc, I developed an automated high voltage test interface to validate the build quality of Arc’s 226 kwh battery, saving 20 labor hrs/week. 
+At Arc, I developed an automated high voltage test interface to validate the build quality of Arc’s 226 kwh battery.
 
 
 I automated the pre-charge, pack charge, hipot and battery management system (BMS) tests by repurposing the boat's vehicle control unit (VCU). I learned and repurposed Arc's proprietary CAN framework to control the VCU and custom peripherals.
