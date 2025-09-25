@@ -69,7 +69,7 @@
     <span class="sr-only">Link to heading</span>
   </a>
 </h3>
-<p>At Arc, I developed an automated high voltage test interface to validate the build quality of Arc’s 226 kwh battery, saving 20 labor hrs/week.</p>
+<p>At Arc, I developed an automated high voltage test interface to validate the build quality of Arc’s 226 kwh battery.</p>
 <p>I automated the pre-charge, pack charge, hipot and battery management system (BMS) tests by repurposing the boat&rsquo;s vehicle control unit (VCU). I learned and repurposed Arc&rsquo;s proprietary CAN framework to control the VCU and custom peripherals.</p>
 <p>I also wrote a scrappy Python driver to replace $10k vendor software, which was previously impossible because of a faulty DBC. I fixed this by reverse engineering the vendor-provided CAN DBC, byte by byte. I was then able to write the driver using OpenHTF.</p>
 <p>During high voltage battery validation tests, I caught a fatal harnessing defect + PCB design flaw leading to HVIL signal drop. I diagnosed and fixed it in 24 hours, unblocking boat production. I then remedied the flaw and improved the board in Altium.</p>
@@ -95,8 +95,8 @@
 <p>During my independent research role with the UCLA Anatomical Engineering Group, I worked with a grad student who developed an electromagnetic prosthetic attachment for lower limb amputations. The system involves implanting a passive ferromagnet, allowing the wound to close, and attracting it with an external electromagnet. Electromagnets are power hungry, necessitating a controls system to decide the amount of current depending on the stage of the gait cycle.</p>
 <p>I designed and fabricated current and voltage sensing PCBs, and wrote firmware code to communicate to the analog digital converter (ADC) via SPI.</p>
 <p>I then pulled on prior research that suggests the inductance of an electromagnet changes as a ferromagnet moves within its field.
-I tapped into the voltage and current of the electromagnet, mapping industance versus distance.</p>
-<p>I noticed some dependence on the frequency of voltage input, but at 100 hz there is a particularly noticable trend correlating Gap Distance [mm] with Inductance [mH].</p>
+I tapped into the voltage and current of the electromagnet, mapping inductance versus distance.</p>
+<p>I noticed some dependence on the frequency of voltage input, but at 100 hz there is a particularly noticeable trend correlating Gap Distance [mm] with Inductance [mH].</p>
 <p>I presented these results via poster at the Socal Robotics Symposium (Irvine 2023) and the BMES Annual Meeting (Seattle 2023).</p>
 
 
