@@ -1,0 +1,11 @@
+<div class="text-with-image">
+  <div class="text-content">
+    {{ .Inner | markdownify }}
+  </div>
+  <div class="image-content">
+    <img src="{{ .Get "src" }}" 
+         alt="{{ .Get "alt" }}"
+         {{ with .Get "width" }} width="{{ . }}"{{ end }}
+         {{ with .Get "height" }} height="{{ . }}"{{ end }} />
+  </div>
+</div>

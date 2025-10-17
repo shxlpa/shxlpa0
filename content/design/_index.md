@@ -8,11 +8,11 @@ draft = false
 <!-- leaving h1 and h2 alone - those specify the info section as blue -->
 <!-- and i don't konw how to edit headings locally to subpages -->
 
-### I'm having analysis paralysis.
+I'm having analysis paralysis.
 
 I can't decide on an aesthetic for my website, so it's currently just a shell to host my own career outreach & info. Please follow my [instagram](https://www.instagram.com/shxlpashxlpa/) for updates on my design work.
 
-### Wide base ceramics 
+# Wide base ceramics 
 
 ![Alt text](/images/pottery.jpg) <br><br>
 
