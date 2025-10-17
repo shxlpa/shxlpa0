@@ -1,20 +1,19 @@
 body {
     font-family: 'Helvetica Neue', sans-serif;
-    color: #000; /* Written content on markdown pages */
+    color: #000;
     background-color: #fff;
     max-width: 1000px;  /* Centers introduction */
     margin: 0 auto; /* Centers introduction */
   }
   
-  h1, h2, h3, h4 { /* styling for index.md headers */
+  h1, h2, h3, h4 {
     font-weight: 900;
-    color: #2c8636;
+    color: #0047FF;
   }
   
-  a { /* styling for all links */
-    color: #ce6016;
+  a {
+    color: #0047FF;
     font-weight: bold;
-    font-size: 2rem;
   }
   
   a:hover {
@@ -26,7 +25,7 @@ body {
     font-size: 10rem;
     font-weight: 900;
     letter-spacing: 1px;
-    color: #ce6016 !important; /* title "SHILPA" */
+    color: #0047FF !important;
     text-decoration: none !important;
   }
 
@@ -68,14 +67,14 @@ body {
   /* stylize the subpage headers */
   /* I figured out what the subpage headers were called (title-link) using inspect element */
   .title-link {
-    color: #ce6016 !important;      /* main page > subpage title or subpage's page's title */
-    font-size: 2rem !important;   /* make it bigger */
+    color: #000000 !important;      /* change to blue or your preferred color */
+    font-size: 8rem !important;   /* make it bigger */
     font-weight: 400 !important;    /* bold it */
     letter-spacing: 4px;
     /* margin-top: 0.5rem !important;
     margin-bottom: 1.5rem !important;
     border-bottom: 2px solid #2a9df4 !important;  /* underline for emphasis */
-    padding-bottom: 0.3rem !important; 
+    padding-bottom: 0.3rem !important; */
     text-decoration: none !important;  /* remove any underline if needed */
   }
 
@@ -90,7 +89,7 @@ body {
 
 /*  using H3 for projects on subpages  */
 h3, h4, h5, h6 {
-  color: #ce6016 !important;
+  color: black !important;
   font-size: 4rem !important; 
   font-weight: 400 !important;
   /* Set font sizes explicitly, adjust as needed */
@@ -101,69 +100,3 @@ img {
   margin-bottom: 3rem;
 }
 
-/* Use a cute pomegrenate as the bullet! */
-
-ul.custom-bullets {
-  list-style: none; /* remove default bullets */
-  padding-left: 0;
-}
-
-ul.custom-bullets li {
-  position: relative;
-  padding-left: 2em; /* space for the image */
-  margin-bottom: 0.5em; /* spacing between items */
-}
-
-ul.custom-bullets li::before {
-  content: "";
-  display: inline-block;      /* important! */
-  position: absolute;
-  left: 0;
-  top: 0.2em;
-  width: 2em;
-  height: 2em;
-  background-image: url('/images/pomm.jpeg'); /* the image used for the bullet points */
-  background-size: contain;
-  background-repeat: no-repeat;
-}
-
-/* List the children of a subpage as bullets */
-
-ul.listchildren {
-  list-style: none;        /* or keep your custom bullets */
-  /* padding-left: 0em; */
-  font-size: 1.2rem;       /* bigger font */
-  line-height: 2;           /* more space between lines */
-}
-
-ul.listchildren li {
-  margin-bottom: 0.5em;    /* extra space between list items, optional */
-}
-
-
-/* format image to right of text */
-.text-with-image {
-  display: flex;
-  align-items: flex-start;
-  gap: 2rem; /* space between text and image */
-}
-
-.text-with-image .text-content {
-  flex: 1;
-}
-
-.text-with-image .image-content img {
-  max-width: 300px;
-  height: auto;
-  object-fit: contain;
-}
-
-@media (max-width: 768px) {
-  .text-with-image {
-    flex-direction: column;
-  }
-  .text-with-image .image-content img {
-    max-width: 100%;
-    margin-top: 1rem;
-  }
-}

@@ -2,25 +2,7 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>http://localhost:1313/eecliffnotes/</loc>
-    <lastmod>2025-10-16T15:36:25-07:00</lastmod>
-  </url><url>
     <loc>http://localhost:1313/</loc>
-    <lastmod>2025-10-16T15:36:25-07:00</lastmod>
-  </url><url>
-    <loc>http://localhost:1313/eecliffnotes/transforms/</loc>
-    <lastmod>2025-10-16T15:28:48-07:00</lastmod>
-  </url><url>
-    <loc>http://localhost:1313/eecliffnotes/complexnumbers/</loc>
-    <lastmod>2025-10-16T15:28:34-07:00</lastmod>
-  </url><url>
-    <loc>http://localhost:1313/eecliffnotes/wireless/</loc>
-    <lastmod>2025-10-16T15:28:20-07:00</lastmod>
-  </url><url>
-    <loc>http://localhost:1313/writing/loopholes/</loc>
-    <lastmod>2025-07-10T22:40:02-07:00</lastmod>
-  </url><url>
-    <loc>http://localhost:1313/writing/onspirituality/</loc>
     <lastmod>2025-07-10T22:40:02-07:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/writing/</loc>
@@ -29,33 +11,11 @@
     <loc>http://localhost:1313/design/</loc>
     <lastmod>2025-07-10T12:23:16-07:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/engineering/bionics/</loc>
-    <lastmod>2025-07-10T12:23:07-07:00</lastmod>
-  </url><url>
-    <loc>http://localhost:1313/engineering/capacitivebloodpressure/</loc>
-    <lastmod>2025-07-10T12:23:07-07:00</lastmod>
-  </url><url>
-    <loc>http://localhost:1313/engineering/arcboats/</loc>
-    <lastmod>2025-07-10T12:23:07-07:00</lastmod>
-  </url><url>
     <loc>http://localhost:1313/engineering/</loc>
     <lastmod>2025-07-10T12:23:07-07:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/tags/motion/</loc>
-    <lastmod>2023-10-05T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>http://localhost:1313/tags/strangers/</loc>
-    <lastmod>2023-10-05T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>http://localhost:1313/writing/strangersofmotion/</loc>
-    <lastmod>2023-10-05T00:00:00+00:00</lastmod>
+    <loc>http://localhost:1313/categories/</loc>
   </url><url>
     <loc>http://localhost:1313/tags/</loc>
-    <lastmod>2023-10-05T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>http://localhost:1313/tags/writing/</loc>
-    <lastmod>2023-10-05T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>http://localhost:1313/categories/</loc>
   </url>
 </urlset>
